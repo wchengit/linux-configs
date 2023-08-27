@@ -1,0 +1,36 @@
+[user]
+    name = Wei Cheng
+    email = wei.cheng@aqr.com
+[alias]
+    co = checkout
+    br = branch
+    bra = branch --all
+    fa = fetch --all
+    st = status
+    ci = commit
+    cp = cherry-pick
+    amend = commit --amend -a
+    fixup = commit -a --fixup
+    rb = rebase
+    rbi = rebase -i
+    squash = rebase -i origin/master --autosquash
+    ls3 = log --pretty=format:"%C(yellow)%h\\ %Cblue<%ar>%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate -3
+    ls = log --pretty=format:"%C(yellow)%h\\ %Cblue<%ar>%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate -10
+    l15 = log --pretty=format:"%C(yellow)%h\\ %Cblue<%ar>%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate -15
+    ln = log --pretty=format:"%C(yellow)%h\\ %Cblue<%ar>%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate
+    ll = log --pretty=format:"%C(yellow)%h\\ %Cblue<%ar>%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
+    rls = reflog --pretty=format:"%C(yellow)%h\\ %Cblue%ar\\ %Creset%gs%Cgreen\\ [%cn]" --decorate -10
+    rl3 = reflog --pretty=format:"%C(yellow)%h\\ %Cblue%ar\\ %Creset%gs%Cgreen\\ [%cn]" --decorate -3
+    rln = reflog --pretty=format:"%C(yellow)%h\\ %Cblue%ar\\ %Creset%gs%Cgreen\\ [%cn]" --decorate
+[core]
+        excludesfile = /home/chengw/.gitignore_global
+        editor = vim -u NONE
+        pager = less
+
+[color]
+        ui = true
+[push]
+        default = simple
+[branch]
+        autosetuprebase = always
+
