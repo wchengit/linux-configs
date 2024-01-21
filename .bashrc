@@ -25,5 +25,7 @@ alias tmini="tm attach -d -t keepMe || tm new -s keepMe"
 alias tmon="tm attach -d -t monitor || tm new -s monitor"
 alias hwin="~/.tmuxifier/bin/tmuxifier load-window ~/.tmuxifier/mywindows/hwin.sh"
 alias vwin="~/.tmuxifier/bin/tmuxifier load-window ~/.tmuxifier/mywindows/vwin.sh"
+alias jn="jupyter notebook"
+alias st8888="ssh -L 8888:localhost:8888 wcheng@remotehost"
 
 shopt -s cdspell
